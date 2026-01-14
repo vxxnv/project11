@@ -1,0 +1,191 @@
+@model Product
+@{
+    ViewData["Title"] = "Редактирование товара";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Редактирование товара</h1>
+        <a href="/Admin/Products" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-2"></i>Назад к списку
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <form method="post" asp-action="Edit" enctype="multipart/form-data">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Id" />
+                        
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label class="form-label" asp-for="Name">Название товара *</label>
+                                    <input type="text" class="form-control" asp-for="Name">
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label class="form-label" asp-for="Article">Артикул *</label>
+                                    <input type="text" class="form-control" asp-for="Article">
+                                    <span asp-validation-for="Article" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label class="form-label" asp-for="Description">Описание *</label>
+                            <textarea class="form-control" asp-for="Description" rows="4"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label class="form-label" asp-for="Price">Цена *</label>
+                                    <input type="number" class="form-control" asp-for="Price" step="0.01">
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label class="form-label" asp-for="CategoryId">Категория *</label>
+                                    <select class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+                                        <option value="">Выберите категорию</option>
+                                    </select>
+                                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Существующие изображения -->
+                        @if (Model.Images.Any())
+                        {
+                            <div class="form-group mb-3">
+                                <label class="form-label">Текущие изображения</label>
+                                <div class="row">
+                                    @foreach (var image in Model.Images)
+                                    {
+                                        <div class="col-md-3 mb-2">
+                                            <div class="position-relative">
+                                                <img src="@image.ImageUrl" alt="@image.AltText" class="img-thumbnail" style="height: 100px; object-fit: cover;">
+                                                <button type="button" class="btn btn-sm btn-danger position-absolute top-0 end-0" 
+                                                        onclick="deleteImage(@image.Id)" title="Удалить изображение">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        }
+
+                        <div class="form-group mb-3">
+                            <label class="form-label">Добавить новые изображения</label>
+                            <input type="file" class="form-control" name="images" multiple accept="image/*">
+                            <div class="form-text">Можно выбрать несколько изображений</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-check mb-3">
+                                    <input type="checkbox" class="form-check-input" asp-for="IsPopular">
+                                    <label class="form-check-label" asp-for="IsPopular">Популярный товар</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-check mb-3">
+                                    <input type="checkbox" class="form-check-input" asp-for="IsActive">
+                                    <label class="form-check-label" asp-for="IsActive">Активный</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <button type="submit" class="btn btn-success">
+                                <i class="fas fa-save me-2"></i>Сохранить изменения
+                            </button>
+                            <a href="/Admin/Products" class="btn btn-secondary">
+                                <i class="fas fa-times me-2"></i>Отмена
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Информация о товаре</h5>
+                </div>
+                <div class="card-body">
+                    <p class="small text-muted">
+                        <strong>ID товара:</strong> @Model.Id<br>
+                        <strong>Дата создания:</strong> @Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")<br>
+                        <strong>Последнее обновление:</strong> @Model.UpdatedAt.ToString("dd.MM.yyyy HH:mm")<br>
+                        <strong>Изображений:</strong> @Model.Images.Count<br>
+                        <strong>Статус:</strong> 
+                        @if (Model.IsActive)
+                        {
+                            <span class="badge bg-success">Активен</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Неактивен</span>
+                        }
+                        @if (Model.IsPopular)
+                        {
+                            <span class="badge bg-warning">Популярный</span>
+                        }
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Подсказки</h5>
+                </div>
+                <div class="card-body">
+                    <p class="small text-muted">
+                        <strong>Популярный:</strong> Будет отображаться на главной странице<br>
+                        <strong>Активный:</strong> Товар виден в каталоге<br>
+                        <strong>Изображения:</strong> Можно добавить новые или удалить существующие
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function deleteImage(imageId) {
+            if (confirm('Вы уверены, что хотите удалить это изображение?')) {
+                fetch('/Admin/Products/DeleteImage?id=' + imageId, {
+                    method: 'POST',
+                    headers: {
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload(); // Перезагружаем страницу после удаления
+                    } else {
+                        alert('Ошибка при удалении изображения');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Ошибка при удалении изображения');
+                });
+            }
+        }
+    </script>
+}

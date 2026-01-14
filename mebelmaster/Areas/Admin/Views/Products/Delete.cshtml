@@ -1,0 +1,157 @@
+@model Product
+@{
+    ViewData["Title"] = "Удаление товара";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Удаление товара</h1>
+        <a href="/Admin/Products" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-2"></i>Назад к списку
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="text-danger">Вы уверены, что хотите удалить этот товар?</h3>
+                    
+                    <div class="alert alert-warning mt-3">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Это действие нельзя отменить. Все данные товара, включая изображения, будут безвозвратно удалены.
+                    </div>
+
+                    <div class="card mt-3">
+                        <div class="card-header">
+                            <h5 class="mb-0">Информация о товаре</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    @if (Model.Images.Any())
+                                    {
+                                        <img src="@Model.Images.First().ImageUrl" alt="@Model.Name" class="img-fluid rounded" style="max-height: 200px; object-fit: cover;">
+                                    }
+                                    else
+                                    {
+                                        <div class="bg-light d-flex align-items-center justify-content-center rounded" style="height: 200px;">
+                                            <i class="fas fa-couch fa-3x text-muted"></i>
+                                        </div>
+                                    }
+                                </div>
+                                <div class="col-md-8">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th style="width: 30%">ID:</th>
+                                            <td>@Model.Id</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Название:</th>
+                                            <td>@Model.Name</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Артикул:</th>
+                                            <td>@Model.Article</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Цена:</th>
+                                            <td>@Model.Price.ToString("C0")</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Категория:</th>
+                                            <td>@Model.Category?.Name</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Статус:</th>
+                                            <td>
+                                                @if (Model.IsActive)
+                                                {
+                                                    <span class="badge bg-success">Активен</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-secondary">Неактивен</span>
+                                                }
+                                                @if (Model.IsPopular)
+                                                {
+                                                    <span class="badge bg-warning ms-1">Популярный</span>
+                                                }
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Изображений:</th>
+                                            <td>
+                                                <span class="badge bg-info">@Model.Images.Count</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Дата создания:</th>
+                                            <td>@Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-3">
+                                <h6>Описание:</h6>
+                                <p class="text-muted">@Model.Description</p>
+                            </div>
+
+                            @if (Model.Images.Any())
+                            {
+                                <div class="mt-3">
+                                    <h6>Изображения товара:</h6>
+                                    <div class="row">
+                                        @foreach (var image in Model.Images)
+                                        {
+                                            <div class="col-md-3 mb-2">
+                                                <img src="@image.ImageUrl" alt="@image.AltText" class="img-thumbnail" style="height: 100px; object-fit: cover;">
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <form method="post" asp-action="Delete" class="mt-4">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Id" />
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger">
+                                <i class="fas fa-trash me-2"></i>Удалить товар
+                            </button>
+                            <a href="/Admin/Products" class="btn btn-secondary">
+                                <i class="fas fa-times me-2"></i>Отмена
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Предупреждение</h5>
+                </div>
+                <div class="card-body">
+                    <p class="small text-muted">
+                        <strong>Удаление товара приведет к:</strong><br>
+                        • Безвозвратному удалению всех данных товара<br>
+                        • Удалению всех изображений товара<br>
+                        • Удалению всех связанных заказов<br>
+                        • Невозможности восстановления данных<br><br>
+                        <strong>Рекомендуется:</strong><br>
+                        • Создать резервную копию данных<br>
+                        • Убедиться в необходимости удаления<br>
+                        • Рассмотреть вариант деактивации товара
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

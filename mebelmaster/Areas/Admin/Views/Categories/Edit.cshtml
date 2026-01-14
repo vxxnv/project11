@@ -1,0 +1,89 @@
+@model Category
+@{
+    ViewData["Title"] = "Редактирование категории";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Редактирование категории</h1>
+        <a href="/Admin/Categories" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-2"></i>Назад к списку
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <form method="post" asp-action="Edit">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Id" />
+                        
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                        
+                        <div class="form-group mb-3">
+                            <label class="form-label" asp-for="Name">Название категории *</label>
+                            <input type="text" class="form-control" asp-for="Name">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label class="form-label" asp-for="Description">Описание</label>
+                            <textarea class="form-control" asp-for="Description" rows="4"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label class="form-label" asp-for="ParentCategoryId">Родительская категория</label>
+                            <select class="form-control" asp-for="ParentCategoryId">
+                                <option value="">Без родительской категории</option>
+                                @foreach (var category in ViewBag.ParentCategories)
+                                {
+                                    <option value="@category.Id">@category.Name</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <button type="submit" class="btn btn-success">
+                                <i class="fas fa-save me-2"></i>Сохранить изменения
+                            </button>
+                            <a href="/Admin/Categories" class="btn btn-secondary">
+                                <i class="fas fa-times me-2"></i>Отмена
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Информация</h5>
+                </div>
+                <div class="card-body">
+                    <p class="small text-muted">
+                        <strong>ID категории:</strong> @Model.Id<br>
+                        <strong>Дата создания:</strong> @Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")<br>
+                        <strong>Последнее обновление:</strong> @Model.UpdatedAt.ToString("dd.MM.yyyy HH:mm")<br>
+                        <strong>Товаров в категории:</strong> @(ViewBag.ProductsCount ?? 0)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Автоматически устанавливаем текущее время при отправке формы
+            document.querySelector('form').addEventListener('submit', function() {
+                const now = new Date().toISOString();
+                // Можно добавить скрытое поле для UpdatedAt если нужно
+            });
+        });
+    </script>
+}

@@ -1,0 +1,110 @@
+@model Order
+@{
+    ViewData["Title"] = "Удаление заказа";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Удаление заказа</h1>
+        <a href="/Admin/Orders" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-2"></i>Назад к списку
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="text-danger">Вы уверены, что хотите удалить этот заказ?</h3>
+                    
+                    <div class="alert alert-warning mt-3">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Это действие нельзя отменить. Все данные заказа будут безвозвратно удалены.
+                    </div>
+
+                    <div class="card mt-3">
+                        <div class="card-header">
+                            <h5 class="mb-0">Информация о заказе</h5>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th style="width: 30%">ID заказа:</th>
+                                    <td>@Model.Id</td>
+                                </tr>
+                                <tr>
+                                    <th>Клиент:</th>
+                                    <td>@Model.CustomerName</td>
+                                </tr>
+                                <tr>
+                                    <th>Телефон:</th>
+                                    <td>@Model.Phone</td>
+                                </tr>
+                                <tr>
+                                    <th>Email:</th>
+                                    <td>@(Model.Email ?? "Не указан")</td>
+                                </tr>
+                                <tr>
+                                    <th>Товар:</th>
+                                    <td>
+                                        @if (Model.Product != null)
+                                        {
+                                            @Model.Product.Name
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">Общий заказ</span>
+                                        }
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Статус:</th>
+                                    <td>
+                                        @switch (Model.Status)
+                                        {
+                                            case OrderStatus.New:
+                                                <span class="badge bg-primary">Новый</span>
+                                                break;
+                                            case OrderStatus.InProgress:
+                                                <span class="badge bg-warning">В работе</span>
+                                                break;
+                                            case OrderStatus.Completed:
+                                                <span class="badge bg-success">Завершен</span>
+                                                break;
+                                            case OrderStatus.Cancelled:
+                                                <span class="badge bg-danger">Отменен</span>
+                                                break;
+                                        }
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Сообщение:</th>
+                                    <td>@(string.IsNullOrEmpty(Model.Message) ? "Не указано" : Model.Message)</td>
+                                </tr>
+                                <tr>
+                                    <th>Дата создания:</th>
+                                    <td>@Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <form method="post" asp-action="Delete" class="mt-4">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="Id" />
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-danger">
+                                <i class="fas fa-trash me-2"></i>Удалить заказ
+                            </button>
+                            <a href="/Admin/Orders" class="btn btn-secondary">
+                                <i class="fas fa-times me-2"></i>Отмена
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

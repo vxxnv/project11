@@ -1,0 +1,77 @@
+@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "Управление категориями";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Управление категориями</h1>
+        <a href="/Admin/Categories/Create" class="btn btn-primary">
+            <i class="fas fa-plus me-2"></i>Добавить категорию
+        </a>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            @if (Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Название</th>
+                                <th>Описание</th>
+                                <th>Родительская категория</th>
+                                <th>Товаров</th>
+                                <th>Дата создания</th>
+                                <th>Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var category in Model)
+                            {
+                                <tr>
+                                    <td>@category.Id</td>
+                                    <td>
+                                        <strong>@category.Name</strong>
+                                        @if (category.Children?.Any() == true)
+                                        {
+                                            <span class="badge bg-info ms-1">@category.Children.Count подкатегорий</span>
+                                        }
+                                    </td>
+                                    <td>@(category.Description.Length > 50 ? category.Description.Substring(0, 50) + "..." : category.Description)</td>
+                                    <td>@category.ParentCategory?.Name</td>
+                                    <td>
+                                        <span class="badge bg-secondary">@category.Products.Count</span>
+                                    </td>
+                                    <td>@category.CreatedAt.ToString("dd.MM.yyyy")</td>
+                                    <td>
+                                        <a href="/Admin/Categories/Edit/@category.Id" class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a href="/Admin/Categories/Delete/@category.Id" class="btn btn-sm btn-outline-danger">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-4">
+                    <i class="fas fa-tags fa-3x text-muted mb-3"></i>
+                    <h4 class="text-muted">Категорий пока нет</h4>
+                    <p class="text-muted">Добавьте первую категорию для организации товаров</p>
+                    <a href="/Admin/Categories/Create" class="btn btn-primary">
+                        <i class="fas fa-plus me-2"></i>Добавить категорию
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
