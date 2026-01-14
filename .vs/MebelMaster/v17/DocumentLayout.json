@@ -1,0 +1,532 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\views\\catalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\views\\catalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\views\\catalog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\views\\catalog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\services\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\mebelmaster.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\mebelmaster.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|c:\\users\\\u0438\u043C\u044F\\source\\repos\\mebelmaster\\mebelmaster\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52D2007B-2D6D-4E80-8023-6ACB52D8D4BC}|MebelMaster\\MebelMaster.csproj|solutionrelative:mebelmaster\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 275,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MebelMaster\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MebelMaster\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:15:55.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Catalog\\Index.cshtml",
+              "RelativeDocumentMoniker": "MebelMaster\\Views\\Catalog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Catalog\\Index.cshtml",
+              "RelativeToolTip": "MebelMaster\\Views\\Catalog\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowJsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:23:03.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Catalog\\Details.cshtml",
+              "RelativeDocumentMoniker": "MebelMaster\\Views\\Catalog\\Details.cshtml",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Catalog\\Details.cshtml",
+              "RelativeToolTip": "MebelMaster\\Views\\Catalog\\Details.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowIQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:26:22.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MebelMaster\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MebelMaster\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T08:35:05.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "MebelMaster\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "MebelMaster\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:21:59.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MebelMaster\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MebelMaster\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T18:15:45.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "MebelMaster\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:57:35.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:36:03.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MebelMaster\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:56:51.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T08:32:40.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Program.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Program.cs",
+              "RelativeToolTip": "MebelMaster\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:58:37.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MebelMaster\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:58:21.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CatalogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\CatalogViewModel.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\CatalogViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\CatalogViewModel.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\CatalogViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvx4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:36:30.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Controllers\\TestController.cs",
+              "RelativeToolTip": "MebelMaster\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T08:15:59.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MebelMaster\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:13:38.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Controllers\\CatalogController.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "MebelMaster\\Controllers\\CatalogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:14:35.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Services\\EmailService.cs",
+              "RelativeToolTip": "MebelMaster\\Services\\EmailService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAUwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:57:59.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Services\\IEmailService.cs",
+              "RelativeToolTip": "MebelMaster\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:59:37.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\ProductImage.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:56:27.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Services\\IFileService.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Services\\IFileService.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Services\\IFileService.cs",
+              "RelativeToolTip": "MebelMaster\\Services\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:00:24.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:35:05.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\Review.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:57:04.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MebelMaster.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\MebelMaster.csproj",
+              "RelativeDocumentMoniker": "MebelMaster\\MebelMaster.csproj",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\MebelMaster.csproj",
+              "RelativeToolTip": "MebelMaster\\MebelMaster.csproj",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwBsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-12T17:54:46.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "MebelMaster\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "MebelMaster\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAEsAAAAAAAAAAAA1wF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-12T18:16:45.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MebelMaster\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MebelMaster\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwGwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-12T18:16:35.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\appsettings.json",
+              "RelativeDocumentMoniker": "MebelMaster\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\appsettings.json",
+              "RelativeToolTip": "MebelMaster\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T17:58:33.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\Product.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:55:56.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\Order.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:56:47.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "MebelMaster\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:01:36.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "MebelMaster\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\\u0418\u041C\u042F\\source\\repos\\MebelMaster\\MebelMaster\\Models\\Category.cs",
+              "RelativeToolTip": "MebelMaster\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:55:21.108Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 125,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
