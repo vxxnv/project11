@@ -1,0 +1,53 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                <i class="fas fa-user me-1"></i>@User.Identity?.Name
+            </a>
+            <ul class="dropdown-menu">
+                @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                {
+                    <li>
+                        <a class="dropdown-item" href="/Admin">
+                            <i class="fas fa-tachometer-alt me-2"></i>Админ-панель
+                        </a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                }
+                <li>
+                    <form class="form-inline" asp-controller="Account" asp-action="Logout" method="post">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="dropdown-item">
+                            <i class="fas fa-sign-out-alt me-2"></i>Выйти
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                <i class="fas fa-user me-1"></i>Аккаунт
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item" href="/Account/Login">
+                        <i class="fas fa-sign-in-alt me-2"></i>Войти
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/Account/Register">
+                        <i class="fas fa-user-plus me-2"></i>Регистрация
+                    </a>
+                </li>
+            </ul>
+        </li>
+    }
+</ul>
