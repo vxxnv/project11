@@ -1,0 +1,45 @@
+@if (TempData["SuccessMessage"] != null || TempData["ErrorMessage"] != null)
+{
+    <div id="notification-toast" class="toast align-items-center text-white bg-success border-0 position-fixed top-0 end-0 m-3" style="z-index: 1060;">
+        <div class="d-flex">
+            <div class="toast-body">
+                <i class="fas fa-check-circle me-2"></i>
+                <span id="notification-message"></span>
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toastElement = document.getElementById('notification-toast');
+            const messageElement = document.getElementById('notification-message');
+            
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <text>
+                toastElement.classList.remove('bg-danger');
+                toastElement.classList.add('bg-success');
+                messageElement.innerHTML = '@Html.Raw(TempData["SuccessMessage"])';
+                </text>
+            }
+            else if (TempData["ErrorMessage"] != null)
+            {
+                <text>
+                toastElement.classList.remove('bg-success');
+                toastElement.classList.add('bg-danger');
+                messageElement.innerHTML = '@Html.Raw(TempData["ErrorMessage"])';
+                </text>
+            }
+            
+            // Показываем уведомление
+            const toast = new bootstrap.Toast(toastElement);
+            toast.show();
+            
+            // Автоматическое скрытие через 5 секунд
+            setTimeout(() => {
+                toast.hide();
+            }, 5000);
+        });
+    </script>
+}

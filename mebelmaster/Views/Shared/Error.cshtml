@@ -1,0 +1,52 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Ошибка";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <div class="card border-0 shadow">
+                <div class="card-body py-5">
+                    <i class="fas fa-exclamation-triangle fa-5x text-warning mb-4"></i>
+                    <h1 class="display-4 text-danger">Ошибка</h1>
+                    <h2 class="text-muted mb-4">Произошла ошибка при обработке вашего запроса</h2>
+                    
+                    @if (Model.ShowRequestId)
+                    {
+                        <div class="alert alert-info">
+                            <strong>ID запроса:</strong> <code>@Model.RequestId</code>
+                        </div>
+                    }
+
+                    <div class="mt-4">
+                        <p class="lead">Пожалуйста, попробуйте обновить страницу или вернуться на главную.</p>
+                        <div class="d-flex justify-content-center gap-3 mt-4">
+                            <a asp-controller="Home" asp-action="Index" class="btn btn-primary btn-lg">
+                                <i class="fas fa-home me-2"></i>На главную
+                            </a>
+                            <button onclick="history.back()" class="btn btn-outline-secondary btn-lg">
+                                <i class="fas fa-arrow-left me-2"></i>Назад
+                            </button>
+                        </div>
+                    </div>
+
+                    @if (ViewContext.HttpContext.Request.Query["returnUrl"].Any())
+                    {
+                        <div class="mt-4">
+                            <a href="@ViewContext.HttpContext.Request.Query["returnUrl"]" class="btn btn-link">
+                                Попробовать снова
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border-radius: 15px;
+    }
+</style>

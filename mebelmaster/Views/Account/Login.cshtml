@@ -1,0 +1,60 @@
+@{
+    ViewData["Title"] = "Вход в систему";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow login-card">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="text-center mb-0"><i class="fas fa-sign-in-alt me-2"></i>@ViewData["Title"]</h2>
+                </div>
+                <div class="card-body p-4">
+                    <form method="post" asp-controller="Account" asp-action="Login" id="loginForm">
+                        @Html.AntiForgeryToken()
+                        
+                        <div class="form-group mb-3">
+                            <label class="form-label fw-medium">Email</label>
+                            <input type="email" name="Input_Email" class="form-control" placeholder="Введите ваш email">
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label class="form-label fw-medium">Пароль</label>
+                            <input type="password" name="Input_Password" class="form-control" placeholder="Введите пароль">
+                        </div>
+                                            
+                        <div class="form-group form-check mb-3">
+                            <input type="checkbox" class="form-check-input" name="Input_RememberMe" id="rememberMe" value="true">
+                            <label class="form-check-label" for="rememberMe">Запомнить меня</label>
+                        </div>
+                        
+                        <!-- Блок для кастомных ошибок -->
+                        <div id="customErrors" class="alert alert-danger d-none">
+                            <h6 class="alert-heading">Ошибки в форме:</h6>
+                            <div id="errorList"></div>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <button type="submit" class="btn btn-primary w-100 btn-lg">
+                                <i class="fas fa-sign-in-alt me-2"></i>Войти
+                            </button>
+                        </div>
+                        
+                        <div class="text-center">
+                            <p class="mb-2">
+                                <a href="/Account/ForgotPassword"><i class="fas fa-key me-1"></i>Забыли пароль?</a>
+                            </p>
+                            <p class="mb-0">
+                                <a href="/Account/Register">Зарегистрироваться как новый пользователь</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/account-login.js" asp-append-version="true"></script>
+}
